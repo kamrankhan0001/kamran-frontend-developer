@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../images/logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,7 +9,13 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         
         
-        <div className="text-2xl font-extrabold">EthAi</div>
+        <div className="text-2xl font-extrabold">
+        <img
+            src={logo} 
+            alt="logo" 
+            className="rounded-lg w-200 h-200 mb-4"
+          />
+        </div>
 
         {/*  Menu Icon for Mobile */}
         <button

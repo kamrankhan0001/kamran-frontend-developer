@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../images/img1.jpeg"; // Import your image
+import preview from "../images/preview.png";
 
 const Roadmap = () => {
   return (
@@ -39,23 +40,33 @@ const Roadmap = () => {
 
           {/* Right Section (Image Background) */}
           <div
-            className="h-[350px] rounded-lg shadow-2xl opacity-50"
+            className="h-[400px] rounded-lg shadow-2xl"
             style={{
               backgroundImage: `url(${img1})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
           >
-            <div className="w-full h-full bg-black bg-opacity-40 rounded-lg"></div>
+            <div className="w-full h-full bg-black bg-opacity-0 rounded-lg"></div>
           </div>
         </div>
 
         {/* Phase 2 */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
+
           {/* Left Section (PreviewImage) */}
-          <div>
-            <PreviewImage />
-          </div>
+          
+
+<div
+            className="h-[400px] rounded-lg shadow-2xl"
+            style={{
+              backgroundImage: `url(${preview})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          ></div>
+
+
 
           {/* Right Section */}
           <div className="bg-[#0F2933] text-white p-6 rounded-lg shadow-md">
@@ -153,9 +164,10 @@ const Roadmap = () => {
 
       
       <div className="flex-1 flex items-center justify-center w-full mt-16">
-        <div className="p-8 bg-[#022029] rounded-lg text-center max-w-2xl shadow-2xl">
-          <h3 className="text-xl md:text-2xl font-bold mb-4">Explore Our dApp</h3>
-          <p className="text-sm md:text-base text-gray-100 mb-6">
+        <div className="p-4 bg-[#022029] rounded-lg text-center max-w-2xl shadow-2xl">
+          <h1 className="text-3xl md:text-2xl mb-4">Explore Our{" "}
+          <span style={{ color: "#B0F9FF" }}>dApp</span></h1>
+          <p className="text-md md:text-base text-gray-100 mb-6 shadow-2xl rounded-2xl w-full" style={{color: '#B0F9FF'}}>
             EthAI is an AI-powered dApp designed to help traders make smarter, data-driven decisions. By tracking smart
             money flows, monitoring key wallets, and providing real-time market insights, EthAI empowers users to stay
             ahead of trends. The platform offers intuitive AI features for asset recommendations, market analysis, and
