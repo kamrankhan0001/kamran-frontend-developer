@@ -13,6 +13,7 @@ import Footer from './components/Footer';
 
 
 
+
 const App = () => {
   return (
     <div className="bg-[#00161C] text-white font-sans">
@@ -23,6 +24,7 @@ const App = () => {
       <Tokenomics />
       <Roadmap />
       <Footer />
+      
       
     </div>
   );

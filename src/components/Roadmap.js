@@ -16,7 +16,7 @@ const Roadmap = () => {
               <span className="bg-gray-500 text-sm text-white px-3 py-1 rounded-md uppercase font-bold">
                 Phase 1
               </span>
-              <h2 className="text-2xl font-bold mt-4 mb-6">Kicking Off</h2>
+              <h2 className="text-2xl font-bold mt-4 mb-5">Kicking Off</h2>
               <ul className="space-y-4 text-gray-300">
                 <li className="flex items-center">
                   <span className="text-[#4CAF50] mr-2">●</span>
