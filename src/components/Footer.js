@@ -23,7 +23,7 @@ const Footer = () => {
             <a href="#" className="hover:text-blue-400">
               <FontAwesomeIcon icon={faTelegramPlane} />
             </a>
-            <a href="#" className="hover:text-blue-400">
+            <a href="#" className="hover:text-blue-500">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a href="#" className="hover:text-blue-400">
